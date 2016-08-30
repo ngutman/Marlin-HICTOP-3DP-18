@@ -723,7 +723,8 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // CL: set to true to invert th
 // 1a) default axis steps per unit for Ultimaker steps/mm ={8.7402,78.7402,200.0*8/3,760*1.1}
 // 1b) default axis steps per unit for HIC i3 steps/mm ={80,80,2560,94.4962144}, OEM z-axis threaded rods =8mm wide x 1.25mm pitch
 //#define DEFAULT_AXIS_STEPS_PER_UNIT {80,80,2560,94.4962144} // original default for HIC i3, (steps/mm)
-#define DEFAULT_AXIS_STEPS_PER_UNIT {80, 80, 2559, 102} // CL: default steps for _my_ HIC i3, you may need to change the Z and/or E for your machine
+//#define DEFAULT_AXIS_STEPS_PER_UNIT {80, 80, 2559, 102} // CL: default steps for _my_ HIC i3, you may need to change the Z and/or E for your machine
+#define DEFAULT_AXIS_STEPS_PER_UNIT {80, 80, 398,94.4962144} // Guti: TODO: Still need to calibrate this, currently set to default values from vendor
 
 // Default MAXIMUM FEEDRATES (motor speeds) X, Y, Z, E - GLOBAL for printing and non-printing
 //#define DEFAULT_MAX_FEEDRATE {200, 200, 5, 17} // (mm/sec) default for Makerbot i3
