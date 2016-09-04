@@ -272,9 +272,9 @@
   // Reprap link here for PID tuning: "http://reprap.org/wiki/PID_Tuning"
 
   // Guti: HICTOP i3 3DP-13 (China), post running PID tuning
-  #define  DEFAULT_Kp 16.35
-  #define  DEFAULT_Ki 0.88
-  #define  DEFAULT_Kd 75.52
+  #define  DEFAULT_Kp 19.88
+  #define  DEFAULT_Ki 1.20
+  #define  DEFAULT_Kd 82.08
 
   // CL: HICTOP i3 (China), post running PID tuning
 //  #define  DEFAULT_Kp 12.19
