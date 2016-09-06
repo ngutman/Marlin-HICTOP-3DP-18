@@ -529,8 +529,8 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // CL: set to true to invert th
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 220 //CL HIC i3 actual X bed size 220mm, was =205
-#define Y_MAX_POS 270 //CL HIC i3 actual Y bed size 270mm, was =205
+#define X_MAX_POS 200 // Guti: Actual size 200
+#define Y_MAX_POS 260 // Guti: Actual size 260
 #define Z_MAX_POS 185 //CL HIC i3 actual Z height measured = 185mm, set this for your actual Z height, was =200
 
 //===========================================================================
