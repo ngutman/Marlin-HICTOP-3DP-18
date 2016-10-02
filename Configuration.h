@@ -106,7 +106,7 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_CONFIG_H_AUTHOR "(Guti., HICTOP i3 Mendel v1.1.0-RC6)" // CL: updated info. Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Guti., HICTOP i3 Mendel v1.1.0-RC7)" // CL: updated info. Who made the changes.
 #define SHOW_BOOTSCREEN
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // CL: enabled, was =disabled. will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 STRING_DISTRIBUTION_DATE // CL: enabled, was =disabled. will be shown during bootup in line 2
@@ -788,12 +788,12 @@
 //#define DEFAULT_MAX_ACCELERATION      {3000,3000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 #define DEFAULT_MAX_ACCELERATION        {1000, 1000, 100, 10000} // (mm/sec^2) CL: default for HIC i3 - X, Y, Z, E(moves) maximum start speed for accelerated moves  
 
-#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
+#define DEFAULT_ACCELERATION          1000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration in mm/s^2 for retracts
 #define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration in mm/s^2 for travel (non printing) moves
 
 // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
-#define DEFAULT_XYJERK                10.0    // (mm/sec) CL: new default for HIC i3, was =20
+#define DEFAULT_XYJERK                2.0     // (mm/sec) CL: new default for HIC i3, was =20
 #define DEFAULT_ZJERK                 0.4     // (mm/sec)
 #define DEFAULT_EJERK                 5.0     // (mm/sec)
 
